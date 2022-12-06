@@ -1,6 +1,4 @@
 <resources>
-    <string name="app_name">Siddharth_c0868148_MT</string>
-
     <string-array name="Cars">
         <item>Please Choose a Car</item>
         <item>BMW</item>
