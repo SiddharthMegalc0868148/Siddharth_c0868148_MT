@@ -13,7 +13,7 @@ import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
-    String TAG = "Android";
+    String cars = "Cars";
     Spinner spinner;
     Button ViewDetails;
     RadioGroup RG;
@@ -31,6 +31,6 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         spinner = findViewById(R.id.spinner1);
-        ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(this,R.id.
+
     }
 }
