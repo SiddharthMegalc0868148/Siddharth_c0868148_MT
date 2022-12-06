@@ -45,6 +45,13 @@ public class MainActivity extends AppCompatActivity {
         textView4 = findViewById(R.id.textView4);
         editText = findViewById(R.id.editText);
 
+        String name = editText.getText().toString();
+
+        int checkedRadioButtonId = RG.getCheckedRadioButtonId();
+        RadioGroup checkedRadioButton = findViewById(checkedRadioButtonId);
+
+
+
 
         ViewDetails.setOnClickListener(new View.OnClickListener() {
             @Override
