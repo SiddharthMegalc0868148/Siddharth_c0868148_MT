@@ -1,3 +1,14 @@
 <resources>
     <string name="app_name">Siddharth_c0868148_MT</string>
+
+    <string-array name="Cars">
+        <item>Please Choose a Car</item>
+        <item>BMW</item>
+        <item>Audi</item>
+        <item>Rolls Royce</item>
+        <item>Ferrari</item>
+        <item>Aston Martin</item>
+        <item>Lamborghini</item>
+        <item>Tesla</item>
+    </string-array>
 </resources>
