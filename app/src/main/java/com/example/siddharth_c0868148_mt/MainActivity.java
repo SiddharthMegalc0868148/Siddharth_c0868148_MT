@@ -46,5 +46,14 @@ public class MainActivity extends AppCompatActivity {
         editText = findViewById(R.id.editText);
 
 
+        ViewDetails.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, ViewDetailsActivity.class);
+                startActivity(intent);
+            }
+        });
+
+
     }
 }
